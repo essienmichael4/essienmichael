@@ -1,4 +1,3 @@
-import React from 'react'
 import hero from '../../assets/hero.jpg'
 import hero1 from '../../assets/hero1.jpg'
 import { Link } from 'react-router-dom'
@@ -8,24 +7,7 @@ const Hero = () => {
     <>
         <Desktop />
         <Mobile />
-    </>
-    // <div className='w-full max-w-[1710px] mx-auto h-screen md:max-h-[870px] relative'>
-    //     <div className='absolute h-screen sm:h-full w-full lg:w-[45%] xl:w-[40%] right-0 top-0 2xl:w-[35%]'>
-    //         <img src={hero} alt=""  className='hidden sm:block w-[100%] h-[100%] bg-cover'/>
-    //     </div>
-    //     <div className='container px-8 mx-auto h-full'>
-    //         <div className='w-[60%] h-full gap-2 flex flex-col justify-center'>
-    //             <p className='text-sm 2xl:text-lg'>Full-stack Software Engineer</p>
-    //             <h2 className='lg:text-6xl 2xl:text-8xl font-bold'>Hello, I’m <br /><span className='text-[#05A5FF]'>Michael Essien</span></h2>
-    //             <p className='w-[80%] text-sm 2xl:text-lg'>I once heard that, “If we want users to like our software, we should design it to behave like a likeable person. Define what the product will do before you design how the product will do it. Usability strength is in identifying problems, while design strength is in identifying solutions”. That has been my principle thus far.</p>
-    //             <div className='flex gap-4 mt-2'>
-    //                 <Link to={"/"} className='px-4 py-2 bg-[#05A5FF] text-white rounded'>Download Resume</Link>
-    //                 <Link to={"/"} className='px-4 py-2 border border-[#05A5FF] text-[#05A5FF] rounded'>Contact Me</Link>
-    //             </div>
-    //         </div>
-    //     </div>
-        
-    // </div>
+    </>   
   )
 }
 

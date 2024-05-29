@@ -9,6 +9,7 @@ const Home = () => {
         <main className="w-full">
             <Hero />
         </main>
+        <hr />
         <Footer />
     </>
   )
