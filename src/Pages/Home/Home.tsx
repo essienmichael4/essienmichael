@@ -1,4 +1,5 @@
 import About from "../../components/About/About"
+import Contact from "../../components/Contact/Contact"
 import Footer from "../../components/Footer/Footer"
 import Header from "../../components/Header/Header"
 import Hero from "../../components/Hero/Hero"
@@ -12,6 +13,7 @@ const Home = () => {
             <Hero />
             <Project />
             <About />
+            <Contact />
         </main>
         <hr />
         <Footer />
